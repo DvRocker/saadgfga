@@ -324,9 +324,6 @@ client.on('message', message => {
         .addField('1skip', 'تخطي الأغنية')
         .addField('1pause', 'ايقاف الاغنية مؤقتا')
         .addField('1resume', 'تكملة الاغنية')
-	.addField('vol', 'لتعلية صوت الاغنية')
-        .addField('queue', 'اظهار قائمة التشغيل')
-        .addField('np', 'اظهار الاغنية اللي انت مشغلها حاليا')
         .setFooter('(1general_commands) لاظهار الاوامر العامة')
       message.channel.send(helpEmbed);
     }
@@ -339,7 +336,6 @@ client.on('message', message => {
         .addField('1avatar', "افاتار الشخص المطلوب")
         .addField('1gif', 'البحث عن جيف انت تطلبه')
         .addField('1ping', 'معرفة ping البوت')
-        .setFooter('المزيد قريبا ان شاء الله!')
       message.channel.send(helpEmbed);
     }
 });
