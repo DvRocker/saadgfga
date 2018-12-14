@@ -80,7 +80,7 @@ client.on('message', async msg =>{
 ////////////////////////
 //////////////////////
 client.on('ready', () => {
-   client.user.setGame(" 1help | This Bot By:! Dex ™ | DvRocker ");
+   client.user.setGame(" | 1help | ");
 }); 
 /////////////////////////
 ////////////////////////
