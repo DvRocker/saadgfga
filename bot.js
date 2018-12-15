@@ -319,7 +319,7 @@ client.on('message', message => {
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**أوامر الميوزك...**')
         .addField('1play', 'لتشغيل اغنية')
-        .addField('1join', 'دخول رومك الصوتي')
+        .addField('1vol', 'لتعلية الصوت')
  
         .addField('1skip', 'تخطي الأغنية')
         .addField('1pause', 'ايقاف الاغنية مؤقتا')
@@ -330,7 +330,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === '&general_commands') {
+    if (message.content === '1general_commands') {
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**أوامر عامة...**')
         .addField('1avatar', "افاتار الشخص المطلوب")
